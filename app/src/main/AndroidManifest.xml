@@ -13,12 +13,6 @@
         android:theme="@style/Theme.DonorDarah"
         tools:targetApi="33">
         <activity
-            android:name=".ui.theme.Login.SuksesDaftar"
-            android:exported="false" />
-        <activity
-            android:name=".ui.theme.Login.SignUp"
-            android:exported="false" />
-        <activity
             android:name=".ui.theme.Login.SignIn"
             android:exported="false" />
         <activity
