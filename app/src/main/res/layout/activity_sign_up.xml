@@ -11,14 +11,14 @@
         android:id="@+id/signUP"
         android:layout_width="192dp"
         android:layout_height="32dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="72dp"
         android:gravity="center"
         android:text="Buat Akun Anda "
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,11 +26,12 @@
         android:id="@+id/tekz1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:text="Silahkan masukkan data diri anda"
         android:textColor="@color/white"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signUP" />
 
@@ -48,11 +49,12 @@
 
     <FrameLayout
         android:id="@+id/card"
-        android:layout_width="411dp"
-        android:layout_height="642dp"
+        android:layout_width="416dp"
+        android:layout_height="760dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/cardlogin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tekz1">
 
@@ -141,7 +143,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="360dp"
+            android:layout_marginTop="355dp"
             android:text="Konfirmasi kata sandi "
             android:textColor="@color/black"
             android:textStyle="bold" />
@@ -151,7 +153,7 @@
             android:layout_width="355dp"
             android:layout_height="40dp"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="385dp"
+            android:layout_marginTop="380dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
             android:inputType="text" />
@@ -161,7 +163,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="460dp"
+            android:layout_marginTop="520dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/background_color"
             android:text="Daftar"
