@@ -6,6 +6,8 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="donor_darah">Ayo Donorkan darahmu \n "Darahmu sangat berharga: \n Donorkan, selamatkan \n kehidupan dan jadikan itu \n istimewa."</string>
+    <string name="stok_darah">Membantu Anda untuk \n menemukan kantong darah yang \n anda butuhkan di sekitar wilayah \n anda</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

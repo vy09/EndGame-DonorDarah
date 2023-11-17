@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.theme.Login.Pembukaan1">
+    tools:context=".ui.theme.Login.Pembukaan2">
 
     <ImageView
         android:layout_width="41dp"
@@ -37,7 +37,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="360dp"
-        android:src="@drawable/img"
+        android:src="@drawable/img_5"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="208dp" />
 
@@ -45,19 +45,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Donor Darah"
+        android:text="Stok Darah"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="586dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/donor_darah"
+        android:text="@string/stok_darah"
         android:textAlignment="center"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="613dp" />
 
     <TextView
@@ -77,6 +77,5 @@
         android:textSize="17sp"
         tools:layout_editor_absoluteX="292dp"
         tools:layout_editor_absoluteY="828dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
