@@ -7,11 +7,13 @@
     tools:context=".ui.theme.Login.Home">
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="300dp"
+        android:layout_marginBottom="74dp"
         android:background="@drawable/baseline_merah"
-        tools:layout_editor_absoluteX="-79dp"
-        tools:layout_editor_absoluteY="-94dp">
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,18 +96,28 @@
     </FrameLayout>
 
     <ImageView
+        android:id="@+id/imageView19"
         android:layout_width="300dp"
         android:layout_height="122dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="90dp"
         android:src="@drawable/img_8"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="280dp" />
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <FrameLayout
+        android:id="@+id/frameLayout3"
         android:layout_width="119dp"
         android:layout_height="124dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="275dp"
         android:background="@drawable/img_25"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="492dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout4">
 
         <ImageView
             android:layout_width="94dp"
@@ -128,16 +140,21 @@
             android:layout_marginTop="85dp"
             android:text="Stok Darah"
             android:textColor="@color/black"
-            android:textSize="12sp"
+            android:textSize="12sp"/>
 
     </FrameLayout>
 
     <FrameLayout
+        android:id="@+id/frameLayout4"
         android:layout_width="119dp"
         android:layout_height="124dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="275dp"
         android:background="@drawable/img_25"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="492dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout3"
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:layout_width="94dp"
@@ -160,7 +177,7 @@
             android:layout_marginTop="85dp"
             android:text="Donor Darah"
             android:textColor="@color/black"
-            android:textSize="12sp"
+            android:textSize="12sp"/>
 
     </FrameLayout>
 
