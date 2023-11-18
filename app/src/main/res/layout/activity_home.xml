@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.theme.Login.Home">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/baseline_merah"
+        tools:layout_editor_absoluteX="-79dp"
+        tools:layout_editor_absoluteY="-94dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="130dp"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/img_9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="190dp"
+            android:text="Halo Karina"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="215dp"
+            android:text="(Isi nomor registrasi PMI)"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="190dp"
+            android:text="Golongan Darah"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="210dp"
+            android:text="AB+"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/img_22" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="185dp"
+            android:src="@drawable/img_23" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="364dp"
+            android:layout_marginTop="189dp"
+            android:src="@drawable/img_24" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="122dp"
+        android:src="@drawable/img_8"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <FrameLayout
+        android:layout_width="119dp"
+        android:layout_height="124dp"
+        android:background="@drawable/img_25"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="492dp">
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/img_26" />
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/img_11" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="85dp"
+            android:text="Stok Darah"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="119dp"
+        android:layout_height="124dp"
+        android:background="@drawable/img_25"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="492dp">
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/img_26" />
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/img_10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="85dp"
+            android:text="Donor Darah"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
