@@ -31,6 +31,12 @@
             android:name=".ui.theme.Login.splashScreeen"
             android:exported="false" />
         <activity
+            android:name=".ui.theme.Profile.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.Profile.MenuProfile"
+            android:exported="false" />
+        <activity
             android:name=".ui.theme.Login.SignIn"
             android:exported="false" />
         <activity
