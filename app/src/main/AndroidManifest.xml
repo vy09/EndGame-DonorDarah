@@ -16,6 +16,12 @@
             android:name=".ui.theme.Login.Home"
             android:exported="false" />
         <activity
+            android:name=".ui.theme.Login.sandiBaru"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.Login.VerifikasiEmail"
+            android:exported="false" />
+        <activity
             android:name=".ui.theme.Login.gantisandi"
             android:exported="false" />
         <activity

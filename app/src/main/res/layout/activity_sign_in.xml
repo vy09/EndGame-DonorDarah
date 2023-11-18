@@ -57,9 +57,9 @@
         <EditText
             android:id="@+id/edit_email"
             android:layout_width="match_parent"
-            android:layout_height="38dp"
+            android:layout_height="40dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="90dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
             android:inputType="text" />
@@ -78,7 +78,7 @@
         <EditText
             android:id="@+id/psswd"
             android:layout_width="match_parent"
-            android:layout_height="38dp"
+            android:layout_height="40dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="170dp"
             android:layout_marginEnd="16dp"
@@ -106,7 +106,7 @@
             android:backgroundTint="@color/background_color"
             android:text="Masuk"
             android:textColor="@color/white"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
