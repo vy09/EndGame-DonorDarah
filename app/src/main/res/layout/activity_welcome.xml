@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.theme.Login.splashScreeen">
+    android:background="@color/white"
+    tools:context=".ui.theme.Login.Welcome">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -16,5 +17,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
         app:srcCompat="@drawable/img_6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
