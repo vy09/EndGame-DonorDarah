@@ -12,9 +12,9 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.Toast
+import com.example.donordarah.R
 import com.example.donordarah.databinding.ActivityLoginBinding
 
-import com.example.donordarah.ui.theme.R
 
 class LoginActivity : AppCompatActivity() {
 
