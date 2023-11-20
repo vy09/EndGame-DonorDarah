@@ -30,9 +30,7 @@
         <activity
             android:name=".ui.theme.Profile.Tentang"
             android:exported="false" />
-        <activity
-            android:name=".ui.theme.Login.Home"
-            android:exported="false" />
+
         <activity
             android:name=".ui.theme.Login.sandiBaru"
             android:exported="false" />
@@ -52,10 +50,16 @@
             android:name=".ui.theme.Profile.MenuProfile"
             android:exported="false" />
         <activity
+        android:name=".ui.theme.Home.Home"
+        android:exported="false" />
+        <activity
+            android:name=".ui.theme.Login.SignUp"
+            android:exported="false" />
+        <activity
             android:name=".ui.theme.Login.SignIn"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.theme.Login.Pembukaan1"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DonorDarah">

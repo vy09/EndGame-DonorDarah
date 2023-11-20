@@ -19,7 +19,7 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View) {
-        TODO("Not yet implemented")
+
         when (v.id) {
             R.id.btn_dafrar -> {
                 val intent = Intent(this, signup::class.java)

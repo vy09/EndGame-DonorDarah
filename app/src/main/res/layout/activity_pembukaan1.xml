@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.theme.Login.Pembukaan1">
 
     <ImageView
@@ -54,16 +55,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="match_parent"
-        android:layout_height="360dp"
-        android:layout_marginTop="141dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="56dp"
         android:src="@drawable/img"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
 
     <TextView
         android:id="@+id/textView3"
@@ -73,6 +75,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="150dp"
         android:text="Donor Darah"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,6 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="83dp"
         android:layout_marginEnd="83dp"
+        android:textColor="@color/black"
         android:text="@string/donor_darah"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -99,6 +103,7 @@
         android:layout_marginStart="38dp"
         android:layout_marginTop="95dp"
         android:layout_marginEnd="150dp"
+        android:textColor="@color/black"
         android:text="Lewati"
         android:textSize="17sp"
         app:layout_constraintEnd_toStartOf="@+id/selanjutnya"
@@ -112,6 +117,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="95dp"
         android:layout_marginEnd="38dp"
+        android:textColor="@color/black"
         android:text="Selanjutnya"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"

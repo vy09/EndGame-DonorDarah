@@ -11,12 +11,13 @@
         android:id="@+id/signUP"
         android:layout_width="192dp"
         android:layout_height="32dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="56dp"
         android:gravity="center"
         android:text="Buat Akun Anda "
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tekz1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,10 +27,12 @@
         android:id="@+id/tekz1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Silahkan masukkan data diri anda"
         android:textColor="@color/white"
         android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,8 +53,8 @@
     <FrameLayout
         android:id="@+id/card"
         android:layout_width="416dp"
-        android:layout_height="760dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="620dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/cardlogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
@@ -71,12 +74,13 @@
         <EditText
             android:id="@+id/edit_nama"
             android:layout_width="355dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="55dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/email"
@@ -91,12 +95,13 @@
         <EditText
             android:id="@+id/edit_email"
             android:layout_width="355dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="135dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/telp"
@@ -111,12 +116,13 @@
         <EditText
             android:id="@+id/edit_telp"
             android:layout_width="355dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="215dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/pw"
@@ -131,12 +137,13 @@
         <EditText
             android:id="@+id/edit_pw"
             android:layout_width="355dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="298dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/convirPW"
@@ -151,19 +158,20 @@
         <EditText
             android:id="@+id/edit_convirPW"
             android:layout_width="355dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginStart="30dp"
             android:layout_marginTop="380dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/btn_dafrar"
-            android:layout_width="match_parent"
+            android:layout_width="360dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="520dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="460dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/background_color"
             android:text="Daftar"

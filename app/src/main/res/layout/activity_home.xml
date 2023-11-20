@@ -4,69 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.theme.Login.Home">
+    android:background="@color/white"
+    tools:context=".ui.theme.Home.Home">
 
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginBottom="74dp"
+        android:layout_height="275dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/baseline_merah"
         app:layout_constraintBottom_toTopOf="@+id/imageView19"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="45dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="70dp"
             android:text="Profile"
             android:textColor="@color/white"
-            android:textSize="16sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_width="58dp"
-            android:layout_height="61dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="180dp"
+            android:layout_width="79dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="140dp"
             android:src="@drawable/img_9" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="110dp"
-            android:layout_marginTop="190dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="160dp"
             android:text="Halo Karina"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="110dp"
-            android:layout_marginTop="215dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="180dp"
             android:text="(Isi nomor registrasi PMI)"
             android:textColor="@color/white"
-            android:textSize="8sp"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="160dp"
+            android:text="Golongan Darah"
+            android:textColor="@color/white"
+            android:textSize="10sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="280dp"
-            android:layout_marginTop="190dp"
-            android:text="Golongan Darah"
-            android:textColor="@color/white"
-            android:textSize="8sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="295dp"
-            android:layout_marginTop="210dp"
+            android:layout_marginTop="180dp"
             android:text="AB+"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -75,31 +80,25 @@
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginStart="360dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="70dp"
             android:src="@drawable/img_22" />
 
         <ImageView
             android:layout_width="18dp"
             android:layout_height="18dp"
-            android:layout_marginStart="360dp"
-            android:layout_marginTop="185dp"
-            android:src="@drawable/img_29" />
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="126dp"
+            android:src="@drawable/img_23" />
 
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/img_24" />
 
     </FrameLayout>
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="300dp"
-        android:layout_height="122dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="90dp"
-        android:src="@drawable/img_8"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <FrameLayout
         android:id="@+id/frameLayout3"
@@ -107,7 +106,7 @@
         android:layout_height="124dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="275dp"
+        android:layout_marginBottom="188dp"
         android:background="@drawable/img_25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -134,7 +133,7 @@
             android:layout_marginTop="85dp"
             android:text="Stok Darah"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
     </FrameLayout>
 
@@ -143,8 +142,8 @@
         android:layout_width="119dp"
         android:layout_height="124dp"
         android:layout_marginStart="55dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="275dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="188dp"
         android:background="@drawable/img_25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/frameLayout3"
@@ -171,9 +170,22 @@
             android:layout_marginTop="85dp"
             android:text="Donor Darah"
             android:textColor="@color/black"
-            android:textSize="12sp"/>
+            android:textSize="12sp" />
 
     </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="315dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/img_8"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

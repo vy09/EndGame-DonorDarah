@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.theme.Login.SignIn"
-    android:background="@color/background_color">
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    tools:context=".ui.theme.Login.SignIn">
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,22 +24,22 @@
         android:id="@+id/textView"
         android:layout_width="301dp"
         android:layout_height="36dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="20dp"
         android:text=" Hi Selamat datang kembali ke akun anda!"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <FrameLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="409dp"
-        android:layout_height="770dp"
-        android:layout_marginTop="172dp"
+        android:layout_width="0dp"
+        android:layout_height="660dp"
+        android:layout_marginTop="156dp"
         android:background="@drawable/layout_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -60,6 +60,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="80dp"
+            android:textColor="@color/black"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
             android:inputType="text" />
@@ -81,6 +82,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="170dp"
+            android:textColor="@color/black"
             android:layout_marginEnd="16dp"
             android:background="@drawable/layout_edittext"
             android:inputType="text" />
@@ -89,7 +91,7 @@
             android:id="@+id/lupaPW"
             android:layout_width="142dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="250dp"
+            android:layout_marginStart="230dp"
             android:layout_marginTop="215dp"
             android:text="Lupa Kata Sandi?"
             android:textColor="@color/black"
@@ -101,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="510dp"
+            android:layout_marginTop="310dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/background_color"
             android:text="Masuk"
@@ -113,17 +115,18 @@
             android:layout_width="142dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
-            android:layout_marginTop="560dp"
+            android:layout_marginTop="360dp"
             android:text="Belum punya akun?"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/btn_daftar"
             android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="240dp"
-            android:layout_marginTop="560dp"
+            android:layout_marginTop="360dp"
             android:text="Daftar"
             android:textColor="@color/daftar_login"
             android:textSize="15sp"
