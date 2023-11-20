@@ -4,6 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D6D6D6"
     tools:context=".ui.theme.FiturDonorDarah.LokasiPMI">
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="510dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/popupbg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginBottom="450dp"
+            android:text="PMI Kota Depok"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="207dp"
+            android:layout_height="284dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="192dp"
+            android:src="@drawable/img_28" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="112dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="291dp"
+            android:src="@drawable/img_30" />
+
+        <TextView
+            android:layout_width="257dp"
+            android:layout_height="174dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="284dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="52dp"
+            android:textAlignment="center"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
