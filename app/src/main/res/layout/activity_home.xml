@@ -84,14 +84,8 @@
             android:layout_height="18dp"
             android:layout_marginStart="360dp"
             android:layout_marginTop="185dp"
-            android:src="@drawable/img_23" />
+            android:src="@drawable/img_29" />
 
-        <ImageView
-            android:layout_width="10dp"
-            android:layout_height="10dp"
-            android:layout_marginStart="364dp"
-            android:layout_marginTop="189dp"
-            android:src="@drawable/img_24" />
 
     </FrameLayout>
 
