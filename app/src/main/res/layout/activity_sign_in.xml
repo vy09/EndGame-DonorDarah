@@ -60,10 +60,12 @@
             android:layout_height="40dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="80dp"
-            android:textColor="@color/black"
             android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:autofillHints="@string/prompt_email"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/password"
@@ -82,10 +84,14 @@
             android:layout_height="40dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="170dp"
-            android:textColor="@color/black"
             android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
-            android:inputType="text" />
+            android:autofillHints="@string/prompt_password"
+            android:hint="@string/prompt_password"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/lupaPW"

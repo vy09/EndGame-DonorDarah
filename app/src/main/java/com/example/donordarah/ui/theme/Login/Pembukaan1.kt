@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.donordarah.R
 import com.example.donordarah.ui.theme.Home.Home
+import com.example.donordarah.ui.theme.ui.login.LoginActivity
 
 class Pembukaan1 : AppCompatActivity(), View.OnClickListener {
 
@@ -28,7 +29,7 @@ class Pembukaan1 : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         when(v.id){
             R.id.lewati->{
-                val intent = Intent(this, SignIn::class.java)
+                val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
             }
 

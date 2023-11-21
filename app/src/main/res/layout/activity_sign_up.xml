@@ -32,7 +32,7 @@
         android:text="Silahkan masukkan data diri anda"
         android:textColor="@color/white"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/card"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,134 +50,268 @@
         app:layout_constraintVertical_bias="0.64"
         app:srcCompat="@drawable/back" />
 
-    <FrameLayout
-        android:id="@+id/card"
-        android:layout_width="416dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
         android:layout_height="620dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/cardlogin"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/layout_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintCircleRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tekz1">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/naama"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="30dp"
-            android:text="Nama Pengguna "
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edit_nama"
-            android:layout_width="355dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="55dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="40dp"
+            android:hint="@string/display_name"
             android:inputType="text"
-            android:textColor="@color/black" />
+            android:selectAllOnFocus="true"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="24dp">
 
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="wrap_content"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nomortelp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="110dp"
-            android:text="Email "
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edit_email"
-            android:layout_width="355dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="135dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="10dp"
+            android:hint="Nomor Telepon"
             android:inputType="text"
-            android:textColor="@color/black" />
+            android:selectAllOnFocus="true"
+            android:textColorHint="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            tools:layout_editor_absoluteX="24dp">
 
-        <TextView
-            android:id="@+id/telp"
-            android:layout_width="wrap_content"
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_notelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="190dp"
-            android:text="Nama Pengguna "
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edit_telp"
-            android:layout_width="355dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="215dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="4dp"
+            android:hint="Alamat Email"
             android:inputType="text"
-            android:textColor="@color/black" />
+            android:selectAllOnFocus="true"
 
-        <TextView
-            android:id="@+id/pw"
-            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/nomortelp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Alamat"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="275dp"
-            android:text="Kata Sandi "
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edit_pw"
-            android:layout_width="355dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="298dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="4dp"
+            android:hint="Alamat Tempat Tinggal"
             android:inputType="text"
-            android:textColor="@color/black" />
+            android:selectAllOnFocus="true"
+            app:layout_constraintTop_toBottomOf="@id/Email">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <TextView
-            android:id="@+id/convirPW"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="355dp"
-            android:text="Konfirmasi kata sandi "
-            android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="4dp"
+            android:autofillHints="@string/prompt_password"
+            android:hint="Kata Sandi "
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
 
-        <EditText
-            android:id="@+id/edit_convirPW"
-            android:layout_width="355dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="380dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/layout_edittext"
-            android:inputType="text"
-            android:textColor="@color/black" />
+            app:layout_constraintTop_toBottomOf="@+id/Alamat">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="4dp"
+            android:autofillHints="@string/prompt_password"
+            android:hint="Konfirmasi kata Sandi"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            app:layout_constraintTop_toBottomOf="@+id/password">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_confirmPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btn_dafrar"
-            android:layout_width="360dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="460dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="19dp"
             android:backgroundTint="@color/background_color"
             android:text="Daftar"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/confirm_password" />
 
-    </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--        <TextView-->
+<!--            android:id="@+id/naama"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:text="Nama Pengguna "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edit_nama"-->
+<!--            android:layout_width="355dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginTop="55dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/layout_edittext"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/email"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginTop="110dp"-->
+<!--            android:text="Email "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edit_email"-->
+<!--            android:layout_width="355dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginTop="135dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/layout_edittext"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/telp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginTop="190dp"-->
+<!--            android:text="Nama Pengguna "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edit_telp"-->
+<!--            android:layout_width="355dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginTop="215dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/layout_edittext"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/pw"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginTop="275dp"-->
+<!--            android:text="Kata Sandi "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edit_pw"-->
+<!--            android:layout_width="355dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginTop="298dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/layout_edittext"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/convirPW"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginTop="355dp"-->
+<!--            android:text="Konfirmasi kata sandi "-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edit_convirPW"-->
+<!--            android:layout_width="355dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:layout_marginTop="380dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@drawable/layout_edittext"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_dafrar"-->
+<!--            android:layout_width="360dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="460dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:backgroundTint="@color/background_color"-->
+<!--            android:text="Daftar"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold" />-->
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

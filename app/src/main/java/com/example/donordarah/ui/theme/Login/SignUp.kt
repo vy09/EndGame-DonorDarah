@@ -14,18 +14,18 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        signup = findViewById(R.id.btn_dafrar)
-        signup.setOnClickListener(this)
+//        signup = findViewById(R.id.btn_daftar)
+//        signup.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
 
-        when (v.id) {
-            R.id.btn_dafrar -> {
-                val intent = Intent(this, signup::class.java)
-                startActivity(intent)
-            }
-        }
+//        when (v.id) {
+//            R.id.btn_daftar -> {
+//                val intent = Intent(this, signup::class.java)
+//                startActivity(intent)
+//            }
+//        }
 
     }
 }

@@ -1,6 +1,7 @@
 package com.example.donordarah.ui.theme.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -14,6 +15,8 @@ import android.widget.EditText
 import android.widget.Toast
 import com.example.donordarah.R
 import com.example.donordarah.databinding.ActivityLoginBinding
+import com.example.donordarah.ui.theme.Home.Home
+import com.example.donordarah.ui.theme.Login.SignUp
 
 
 class LoginActivity : AppCompatActivity() {
@@ -27,10 +30,16 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val btnRegister = binding.btnDaftar
         val username = binding.username
         val password = binding.password
-        val login = binding.login
+        val btnlogin = binding.login
         val loading = binding.loading
+
+        btnRegister!!.setOnClickListener {
+            val intent = Intent(this@LoginActivity, SignUp::class.java)
+            startActivity(intent)
+        }
 
         loginViewModel = ViewModelProvider(this, LoginViewModelFactory())
             .get(LoginViewModel::class.java)
@@ -39,7 +48,7 @@ class LoginActivity : AppCompatActivity() {
             val loginState = it ?: return@Observer
 
             // disable login button unless both username / password is valid
-            login.isEnabled = loginState.isDataValid
+            btnlogin.isEnabled = loginState.isDataValid
 
             if (loginState.usernameError != null) {
                 username.error = getString(loginState.usernameError)
@@ -91,9 +100,9 @@ class LoginActivity : AppCompatActivity() {
                 false
             }
 
-            login.setOnClickListener {
-                loading.visibility = View.VISIBLE
-                loginViewModel.login(username.text.toString(), password.text.toString())
+            btnlogin.setOnClickListener {
+                val intent = Intent(this@LoginActivity, Home::class.java)
+                startActivity(intent)
             }
         }
     }

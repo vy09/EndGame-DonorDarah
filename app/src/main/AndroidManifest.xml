@@ -13,7 +13,7 @@
         android:theme="@style/Theme.DonorDarah"
         tools:targetApi="34">
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".ui.theme.ui.login.LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login" />
         <activity
