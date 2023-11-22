@@ -34,7 +34,7 @@ class RecyclerViewPMIAdapter constructor(
     }
     class MyViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
         val tvAlamat : TextView = itemView.findViewById(R.id.tvAlamat)
-        val ivPmi : ImageView = itemView.findViewById(R.id.ivPmi)
+        val ivPmi : ImageView = itemView.findViewById(R.id.btnDetail)
         val cardView : CardView = itemView.findViewById(R.id.cardView)
     }
 }
