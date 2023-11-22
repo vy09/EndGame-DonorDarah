@@ -40,7 +40,7 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.lupaPW->{
-                val intent = Intent(this, sandiBaru::class.java)
+                val intent = Intent(this, gantisandi::class.java)
                 startActivity(intent)
             }
 

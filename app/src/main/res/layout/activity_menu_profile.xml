@@ -8,7 +8,7 @@
     tools:context=".ui.theme.Profile.MenuProfile">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btnback"
         android:layout_width="58dp"
         android:layout_height="35dp"
         android:layout_marginTop="28dp"
@@ -22,7 +22,7 @@
 
     <FrameLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="409dp"
+        android:layout_width="410dp"
         android:layout_height="770dp"
         android:layout_marginTop="176dp"
         android:background="@drawable/red_profile"
@@ -45,6 +45,7 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
+            android:id="@+id/btnEdtProfil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -57,6 +58,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnTentang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -69,6 +71,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnSyarat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -81,6 +84,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/btnOut"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -96,14 +100,13 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="284dp"
-        android:layout_height="269dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="171dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-      />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

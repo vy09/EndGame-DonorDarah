@@ -1,12 +1,33 @@
 package com.example.donordarah.ui.theme.Login
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.TextView
 import com.example.donordarah.R
+import com.example.donordarah.ui.theme.ui.login.LoginActivity
 
-class gantisandi : AppCompatActivity() {
+class gantisandi : AppCompatActivity(), View.OnClickListener {
+    private lateinit var kirim: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gantisandi)
+
+        kirim = findViewById(R.id.buttonkirim)
+        kirim.setOnClickListener(this)
+    }
+
+    override fun onClick(v: View) {
+        when (v.id) {
+            R.id.buttonkirim -> {
+                val intent = Intent(this, VerifikasiEmail::class.java)
+                startActivity(intent)
+            }
+        }
     }
 }
+
+

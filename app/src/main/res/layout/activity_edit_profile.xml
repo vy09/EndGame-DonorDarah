@@ -3,17 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.theme.Profile.EditProfile">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/btnback"
         android:layout_width="58dp"
         android:layout_height="35dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView21"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -23,7 +24,7 @@
         android:id="@+id/textView21"
         android:layout_width="130dp"
         android:layout_height="37dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:text="Edit Profile"
         android:textColor="@color/black"
         android:textSize="25sp"
@@ -46,13 +47,13 @@
         app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21"
-        app:layout_constraintVertical_bias="0.705" />
+        app:layout_constraintVertical_bias="0.529" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="60dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   Karina Angel"
@@ -65,7 +66,7 @@
     <TextView
         android:layout_width="213dp"
         android:layout_height="26dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="5dp"
         android:text="Nomor Registrasi PMI"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -80,8 +81,8 @@
     <EditText
         android:id="@+id/editText6"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="    -"
@@ -122,8 +123,8 @@
     <EditText
         android:id="@+id/editText5"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="44dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   +62 | 8xxxxxxxxx"
@@ -135,8 +136,8 @@
     <EditText
         android:id="@+id/editText4"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="44dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   Perempuan"
@@ -161,8 +162,8 @@
     <EditText
         android:id="@+id/editText3"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   AB"
@@ -188,8 +189,8 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="44dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   Positif(+)"
@@ -214,8 +215,8 @@
     <EditText
         android:id="@+id/editText2"
         android:layout_width="364dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   Kabupaten Tangerang Selatan"
@@ -229,6 +230,7 @@
         android:layout_width="196dp"
         android:layout_height="53dp"
         android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="100dp"
         android:backgroundTint="@color/maincolor"
         android:text="Simpan Profile"
@@ -239,6 +241,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.391" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

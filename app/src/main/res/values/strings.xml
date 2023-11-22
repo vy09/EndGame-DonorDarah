@@ -47,8 +47,8 @@
     </string>
     <string name="title_activity_login" translatable="false">Login_Activity</string>
     <string name="prompt_username" translatable="false">Username</string>
-    <string name="prompt_email" translatable="false">Isi email Anda</string>
-    <string name="prompt_password" translatable="false">Buat kata sandi yang kuat</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
     <string name="action_sign_in" translatable="false">Sign in or register</string>
     <string name="action_sign_in_short" translatable="false">Sign in</string>
     <string name="welcome" translatable="false">Welcome !"</string>

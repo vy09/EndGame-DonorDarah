@@ -17,6 +17,7 @@ import com.example.donordarah.R
 import com.example.donordarah.databinding.ActivityLoginBinding
 import com.example.donordarah.ui.theme.Home.Home
 import com.example.donordarah.ui.theme.Login.SignUp
+import com.example.donordarah.ui.theme.Login.gantisandi
 
 
 class LoginActivity : AppCompatActivity() {
@@ -35,9 +36,22 @@ class LoginActivity : AppCompatActivity() {
         val password = binding.password
         val btnlogin = binding.login
         val loading = binding.loading
+        val lupapw = binding.lupaPW
+
+
 
         btnRegister!!.setOnClickListener {
             val intent = Intent(this@LoginActivity, SignUp::class.java)
+            startActivity(intent)
+        }
+        if (lupapw != null) {
+            lupapw.setOnClickListener {
+                val intent = Intent(this@LoginActivity, gantisandi::class.java)
+                startActivity(intent)
+            }
+        }
+        btnlogin.setOnClickListener {
+            val intent = Intent(this@LoginActivity, Home::class.java)
             startActivity(intent)
         }
 
@@ -61,7 +75,7 @@ class LoginActivity : AppCompatActivity() {
         loginViewModel.loginResult.observe(this@LoginActivity, Observer {
             val loginResult = it ?: return@Observer
 
-            loading.visibility = View.GONE
+            loading?.visibility = View.GONE
             if (loginResult.error != null) {
                 showLoginFailed(loginResult.error)
             }
@@ -100,10 +114,10 @@ class LoginActivity : AppCompatActivity() {
                 false
             }
 
-            btnlogin.setOnClickListener {
-                val intent = Intent(this@LoginActivity, Home::class.java)
-                startActivity(intent)
-            }
+//            btnlogin.setOnClickListener {
+//                val intent = Intent(this@LoginActivity, Home::class.java)
+//                startActivity(intent)
+//            }
         }
     }
 

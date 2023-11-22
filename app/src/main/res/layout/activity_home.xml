@@ -78,30 +78,19 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/pengaturan"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginStart="320dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="100dp"
             android:src="@drawable/img_22" />
 
-        <ImageView
-            android:layout_width="18dp"
-            android:layout_height="18dp"
-            android:layout_marginStart="320dp"
-            android:layout_marginTop="126dp"
-            android:src="@drawable/img_23" />
 
-        <ImageView
-            android:layout_width="10dp"
-            android:layout_height="10dp"
-            android:layout_marginStart="325dp"
-            android:layout_marginTop="130dp"
-            android:src="@drawable/img_24" />
 
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frameLayout3"
+        android:id="@+id/stok_darah"
         android:layout_width="119dp"
         android:layout_height="124dp"
         android:layout_marginStart="50dp"
@@ -110,7 +99,7 @@
         android:background="@drawable/img_25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/frameLayout4">
+        app:layout_constraintStart_toEndOf="@+id/donor_darah">
 
         <ImageView
             android:layout_width="94dp"
@@ -138,7 +127,7 @@
     </FrameLayout>
 
     <FrameLayout
-        android:id="@+id/frameLayout4"
+        android:id="@+id/donor_darah"
         android:layout_width="119dp"
         android:layout_height="124dp"
         android:layout_marginStart="55dp"
@@ -146,7 +135,7 @@
         android:layout_marginBottom="188dp"
         android:background="@drawable/img_25"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/frameLayout3"
+        app:layout_constraintEnd_toStartOf="@+id/stok_darah"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
@@ -182,7 +171,7 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="48dp"
         android:src="@drawable/img_8"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+        app:layout_constraintBottom_toTopOf="@+id/stok_darah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
