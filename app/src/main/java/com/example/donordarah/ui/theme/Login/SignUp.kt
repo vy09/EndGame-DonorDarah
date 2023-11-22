@@ -14,7 +14,8 @@ import com.example.donordarah.ui.theme.Home.Home
 class SignUp : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var signup: Button
-//    private lateinit var popup : Dialog
+    private lateinit var popup : Dialog
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,14 +23,13 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_sign_up)
 
         signup = findViewById(R.id.btn_daftar)
-        signup.setOnClickListener(this)
+//        signup.setOnClickListener(this)
+        popup = Dialog(this)
     }
 
     override fun onClick(v: View) {
-        when(v.id){
-            R.id.btn_daftar ->{
-                val intent = Intent(this, SuksesDaftar::class.java)
-                 startActivity(intent)
+            popup.setContentView(R.layout.activity_sukses_daftar)
+            popup.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
             }
         }
 
@@ -42,5 +42,5 @@ class SignUp : AppCompatActivity(), View.OnClickListener {
 //        }popup.setContentView(R.layout.activity_sukses_daftar)
 //                popup.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
-    }
-}
+
+
