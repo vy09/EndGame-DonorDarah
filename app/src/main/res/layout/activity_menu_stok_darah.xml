@@ -6,4 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".ui.theme.Fitur.MenuStokDarah">
 
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="35dp"
+        android:src="@drawable/backhitam"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/img_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Unit Donor Darah"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:background="@drawable/baseline_merah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="261dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPMIJabodetabek2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            tools:listitem="@layout/pmi_jabodetabek_list2" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="42dp"
+        android:src="@drawable/img_31"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="236dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
