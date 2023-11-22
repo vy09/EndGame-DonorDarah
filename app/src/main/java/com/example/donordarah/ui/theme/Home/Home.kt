@@ -22,7 +22,7 @@ class Home : AppCompatActivity(), View.OnClickListener {
         donor_darah = findViewById(R.id.donor_darah)
         donor_darah.setOnClickListener(this)
 
-        stok_darah = findViewById(R.id.donor_darah)
+        stok_darah = findViewById(R.id.stok_darah)
         stok_darah.setOnClickListener(this)
 
         pengaturan =findViewById(R.id.pengaturan)
@@ -35,7 +35,7 @@ class Home : AppCompatActivity(), View.OnClickListener {
                 val intent = Intent(this, MenuDonorDarah::class.java)
                 startActivity(intent)
             }
-            R.id.donor_darah ->{
+            R.id.stok_darah ->{
                 val intent = Intent(this, MenuStokDarah::class.java)
                 startActivity(intent)
             }
