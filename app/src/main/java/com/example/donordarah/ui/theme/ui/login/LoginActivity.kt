@@ -39,7 +39,6 @@ class LoginActivity : AppCompatActivity() {
         val lupapw = binding.lupaPW
 
 
-
         btnRegister!!.setOnClickListener {
             val intent = Intent(this@LoginActivity, SignUp::class.java)
             startActivity(intent)
@@ -50,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-        btnlogin.setOnClickListener {
+        btnlogin!!.setOnClickListener {
             val intent = Intent(this@LoginActivity, Home::class.java)
             startActivity(intent)
         }
