@@ -11,44 +11,44 @@
         android:layout_width="328dp"
         android:layout_height="510dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="144dp"
         android:layout_marginEnd="1dp"
         android:background="@drawable/popupbg"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443">
 
         <TextView
             android:id="@+id/judul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="233dp"
+            android:layout_height="34dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="76dp"
-            android:layout_marginTop="26dp"
-            android:layout_marginEnd="74dp"
-            android:layout_marginBottom="450dp"
-            android:text="PMI Kota Depok"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="448dp"
+            android:text="PMI Kota Tangerang"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:layout_width="207dp"
-            android:layout_height="284dp"
+        <fragment
+            android:layout_width="157dp"
+            android:layout_height="179dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="-3dp"
-            android:layout_marginTop="34dp"
-            android:layout_marginEnd="123dp"
-            android:layout_marginBottom="192dp"
-            android:src="@drawable/img_28" />
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="149dp"
+            android:layout_marginBottom="253dp" />
 
         <ImageView
             android:layout_width="115dp"
@@ -74,8 +74,8 @@
             android:layout_marginTop="284dp"
             android:layout_marginEnd="31dp"
             android:layout_marginBottom="52dp"
-            android:textAlignment="center"
             android:text="@string/lorem_ipsum"
+            android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="16sp" />
 
@@ -84,13 +84,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/judul"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="286dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="290dp"
             android:layout_marginBottom="24dp"
             app:srcCompat="@drawable/baseline_close_24" />
 
     </RelativeLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
