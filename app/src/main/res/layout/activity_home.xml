@@ -9,18 +9,20 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="match_parent"
-        android:layout_height="275dp"
+        android:layout_width="411dp"
+        android:layout_height="319dp"
+        android:layout_marginBottom="112dp"
         android:background="@drawable/baseline_merah"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-28dp">
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="45dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="120dp"
             android:text="Profile"
             android:textColor="@color/white"
             android:textSize="25sp"
@@ -30,14 +32,14 @@
             android:layout_width="79dp"
             android:layout_height="91dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="175dp"
             android:src="@drawable/img_9" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="105dp"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="200dp"
             android:text="Halo Karina"
             android:textColor="@color/white"
             android:textSize="16sp"
@@ -47,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="105dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="230dp"
             android:text="(Isi nomor registrasi PMI)"
             android:textColor="@color/white"
             android:textSize="10sp"
@@ -78,7 +80,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginStart="320dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="120dp"
             android:src="@drawable/img_22" />
 
 
@@ -90,7 +92,7 @@
         android:layout_height="124dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginBottom="200dp"
         android:background="@drawable/img_25"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -133,7 +135,7 @@
         app:layout_constraintEnd_toStartOf="@+id/stok_darah"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.889">
 
         <ImageView
             android:layout_width="94dp"
@@ -164,16 +166,11 @@
         android:id="@+id/imageView19"
         android:layout_width="315dp"
         android:layout_height="127dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginBottom="108dp"
         android:src="@drawable/img_8"
         app:layout_constraintBottom_toTopOf="@+id/stok_darah"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
