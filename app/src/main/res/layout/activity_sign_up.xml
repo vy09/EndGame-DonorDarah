@@ -52,8 +52,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="620dp"
+        android:layout_width="416dp"
+        android:layout_height="791dp"
         android:layout_marginTop="160dp"
         android:background="@drawable/layout_background"
         android:paddingStart="8dp"
@@ -68,20 +68,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="65dp"
             android:hint="@string/display_name"
             android:inputType="text"
-            app:startIconDrawable="@drawable/baseline_person_24"
             android:selectAllOnFocus="true"
             android:textColorHint="@color/black"
             app:layout_constraintTop_toTopOf="parent"
+            app:startIconDrawable="@drawable/baseline_person_24"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -93,17 +93,17 @@
             android:layout_marginTop="10dp"
             android:hint="Nomor Telepon"
             android:inputType="text"
-            app:startIconDrawable="@drawable/baseline_contact_phone_24"
             android:selectAllOnFocus="true"
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/name"
+            app:startIconDrawable="@drawable/baseline_contact_phone_24"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editText_notelp"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -116,15 +116,15 @@
             android:inputType="text"
             android:selectAllOnFocus="true"
             android:textColorHint="@color/black"
-            app:startIconDrawable="@drawable/baseline_email_24"
             app:layout_constraintTop_toBottomOf="@id/nomortelp"
+            app:startIconDrawable="@drawable/baseline_email_24"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editText_email"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -136,17 +136,17 @@
             android:layout_marginTop="10dp"
             android:hint="Alamat Tempat Tinggal"
             android:inputType="text"
-            android:textColorHint="@color/black"
-            app:startIconDrawable="@drawable/baseline_home_24"
             android:selectAllOnFocus="true"
+            android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@id/Email"
+            app:startIconDrawable="@drawable/baseline_home_24"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editText_alamat"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -162,15 +162,15 @@
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
             android:textColorHint="@color/black"
-            app:startIconDrawable="@drawable/baseline_lock_24"
             app:layout_constraintTop_toBottomOf="@+id/Alamat"
+            app:startIconDrawable="@drawable/baseline_lock_24"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editText_password"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -186,15 +186,15 @@
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
             android:textColorHint="@color/black"
-            app:startIconDrawable="@drawable/baseline_lock_24"
             app:layout_constraintTop_toBottomOf="@+id/password"
+            app:startIconDrawable="@drawable/baseline_lock_24"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editText_confirmPass"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/black"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button

@@ -34,8 +34,8 @@
 
     <FrameLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="0dp"
-        android:layout_height="660dp"
+        android:layout_width="408dp"
+        android:layout_height="829dp"
         android:layout_marginTop="156dp"
         android:background="@drawable/layout_background"
         app:layout_constraintEnd_toEndOf="parent"

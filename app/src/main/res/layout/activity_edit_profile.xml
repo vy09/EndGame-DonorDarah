@@ -11,59 +11,54 @@
         android:id="@+id/btnback"
         android:layout_width="58dp"
         android:layout_height="35dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView21"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/backhitam" />
+        app:srcCompat="@drawable/backhitam"
+        tools:layout_editor_absoluteY="20dp" />
+
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="130dp"
         android:layout_height="37dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="76dp"
         android:text="Edit Profile"
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="213dp"
         android:layout_height="26dp"
+        android:layout_marginBottom="52dp"
         android:text="Nama"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editText7"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText7"
         android:layout_width="364dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
         android:background="@drawable/layout_edittext"
         android:inputType="text"
         android:text="   Karina Angel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
+        tools:layout_editor_absoluteY="185dp" />
 
     <TextView
+        android:id="@+id/textView25"
         android:layout_width="213dp"
         android:layout_height="26dp"
         android:layout_marginTop="5dp"
