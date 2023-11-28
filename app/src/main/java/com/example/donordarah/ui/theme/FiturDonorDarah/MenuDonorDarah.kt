@@ -16,7 +16,7 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
     private var recyclerViewPMIAdapter : RecyclerViewPMIAdapter? = null
     private var pmiList = mutableListOf<PMI>()
     private lateinit var back : ImageView
-    private lateinit var detail :RecyclerView
+    private lateinit var detail :ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
