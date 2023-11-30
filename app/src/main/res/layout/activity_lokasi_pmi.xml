@@ -46,9 +46,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="22dp"
-            android:layout_marginTop="78dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="149dp"
-            android:layout_marginBottom="253dp" />
+            android:layout_marginBottom="251dp" />
 
         <ImageView
             android:layout_width="115dp"

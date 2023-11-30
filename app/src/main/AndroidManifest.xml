@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DonorDarah"
         tools:targetApi="34" >
         <activity
+            android:name=".ui.theme.Profile.HistoryMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.theme.Login.suksesGantisandi"
             android:exported="false" />
         <activity
