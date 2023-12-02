@@ -36,10 +36,8 @@
         android:id="@+id/imageView17"
         android:layout_width="171dp"
         android:layout_height="190dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@drawable/img_18" />
@@ -108,14 +106,12 @@
         android:id="@+id/buttonkirim"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="162dp"
+        android:layout_marginStart="104dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="159dp"
         android:backgroundTint="@color/maincolor"
         android:text="Kirim"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 

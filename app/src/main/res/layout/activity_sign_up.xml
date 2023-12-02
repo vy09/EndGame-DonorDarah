@@ -78,7 +78,7 @@
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editText"
+                android:id="@+id/editTextnama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="@color/black" />
@@ -164,6 +164,7 @@
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@+id/Alamat"
             app:startIconDrawable="@drawable/baseline_lock_24"
+            app:endIconMode="password_toggle"
             tools:layout_editor_absoluteX="24dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -185,6 +186,7 @@
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
+            app:endIconMode="password_toggle"
             android:textColorHint="@color/black"
             app:layout_constraintTop_toBottomOf="@+id/password"
             app:startIconDrawable="@drawable/baseline_lock_24"
@@ -200,12 +202,14 @@
         <Button
             android:id="@+id/btn_daftar"
             android:layout_width="150dp"
+            style=""
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="29dp"
             android:layout_marginEnd="19dp"
-            android:backgroundTint="@color/background_color"
             android:text="Daftar"
+            android:enabled="false"
+            android:backgroundTint="@drawable/selector_enabled_button"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="bold"

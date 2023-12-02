@@ -63,9 +63,10 @@
             android:layout_marginEnd="20dp"
             android:autofillHints="@string/prompt_email"
             android:hint="@string/prompt_email"
+            android:paddingLeft="10dp"
             android:inputType="textEmailAddress"
             android:selectAllOnFocus="true"
-            android:textColor="@color/black" />
+            android:textColorHint="@color/edt_text2" />
 
         <TextView
             android:id="@+id/password"
@@ -91,7 +92,7 @@
             android:imeOptions="actionDone"
             android:inputType="textPassword"
             android:selectAllOnFocus="true"
-            android:textColor="@color/black" />
+            android:textColorHint="@color/edt_text2"/>
 
         <TextView
             android:id="@+id/lupaPW"
@@ -111,9 +112,10 @@
             android:layout_marginStart="100dp"
             android:layout_marginTop="310dp"
             android:layout_marginEnd="100dp"
-            android:backgroundTint="@color/background_color"
-            android:text="Masuk"
+            android:enabled="false"
             android:textColor="@color/white"
+            android:backgroundTint="@drawable/selector_enabled_button"
+            android:text="Masuk"
             android:textSize="20sp"
             android:textStyle="bold" />
 

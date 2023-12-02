@@ -13,4 +13,5 @@
     <color name="basecolor_stok1">#A21D21</color>
     <color name="basecolor_stok2">#B1181C</color>
     <color name="basecolor_stok3">#AF0C10 </color>
+    <color name="edt_text2">#8C8888</color>
 </resources>

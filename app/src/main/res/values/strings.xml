@@ -54,7 +54,7 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="display_name">"Translatable"</string>
+    <string name="display_name">"Nama Pengguna"</string>
     <string name="pmi2_name">Pmi2 Name</string>
     <string name="alamat_pmi2">Alamat Pmi2</string>
 </resources>
