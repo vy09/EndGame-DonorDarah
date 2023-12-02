@@ -105,7 +105,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btn_masuk"
+            android:id="@+id/btn_signIn"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"

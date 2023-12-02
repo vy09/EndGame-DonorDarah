@@ -12,15 +12,15 @@ import com.example.donordarah.ui.theme.FiturDonorDarah.MenuDonorDarah
 import com.example.donordarah.ui.theme.Profile.MenuProfile
 
 class Home : AppCompatActivity(), View.OnClickListener {
-    private lateinit var dnr_darah :FrameLayout
+    private lateinit var clk_drh : FrameLayout
     private lateinit var stok_darah : FrameLayout
     private lateinit var pengaturan : ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        dnr_darah = findViewById(R.id.dnr_darah)
-        dnr_darah.setOnClickListener(this)
+        clk_drh = findViewById(R.id.clk_drh)
+        clk_drh.setOnClickListener(this)
 
         stok_darah = findViewById(R.id.stok_darah)
         stok_darah.setOnClickListener(this)
@@ -31,7 +31,7 @@ class Home : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.dnr_darah ->{
+            R.id.clk_drh ->{
                 val intent = Intent(this, MenuDonorDarah::class.java)
                 startActivity(intent)
             }

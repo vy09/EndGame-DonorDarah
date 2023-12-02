@@ -13,7 +13,7 @@ import com.example.donordarah.ui.theme.Home.Home
 
 class SignIn : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var signin : Button
+    private lateinit var btn_signIn : Button
     private lateinit var lupa: TextView
     private lateinit var daftar:TextView
 
@@ -22,8 +22,8 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
-        signin = findViewById(R.id.btn_masuk)
-        signin.setOnClickListener(this)
+        btn_signIn = findViewById(R.id.btn_signIn)
+        btn_signIn.setOnClickListener(this)
 
         lupa = findViewById(R.id.lupaPW)
         lupa.setOnClickListener(this)
@@ -34,12 +34,12 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.btn_masuk->{
+            R.id.btn_signIn ->{
                 val intent = Intent(this, Home::class.java)
                 startActivity(intent)
             }
 
-            R.id.lupaPW->{
+            R.id.lupaPW ->{
                 val intent = Intent(this, gantisandi::class.java)
                 startActivity(intent)
             }

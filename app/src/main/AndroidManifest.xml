@@ -65,10 +65,10 @@
             android:name=".ui.theme.Home.Home"
             android:exported="false" />
         <activity
-            android:name=".ui.theme.Login.SignUp"
+            android:name=".ui.theme.Login.SignIn"
             android:exported="false" />
         <activity
-            android:name=".ui.theme.Login.SignIn"
+            android:name=".ui.theme.Login.SignUp"
             android:exported="false" />
         <activity
             android:name=".ui.theme.Login.Welcome"
