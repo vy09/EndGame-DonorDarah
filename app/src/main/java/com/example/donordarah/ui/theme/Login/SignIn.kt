@@ -53,7 +53,7 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
            val user_email = email.text.toString().trim()
            val user_pass = password.text.toString().trim()
 
-           signin.isEnabled = user_email.isNotEmpty() && user_pass.isNotEmpty()
+           btn_signIn.isEnabled = user_email.isNotEmpty() && user_pass.isNotEmpty()
         }
 
         override fun afterTextChanged(s: Editable?) {}
