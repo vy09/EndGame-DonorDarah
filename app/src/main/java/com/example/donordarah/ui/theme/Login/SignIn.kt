@@ -20,9 +20,6 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
     private lateinit var lupa: TextView
     private lateinit var daftar:TextView
 
-//    private lateinit var email : TextInputEditText
-//    private lateinit var password : TextInputEditText
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,29 +34,7 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
         daftar=findViewById(R.id.btn_daftar)
         daftar.setOnClickListener(this)
 
-//        email = findViewById(R.id.edit_email)
-//        password = findViewById(R.id.psswd)
-//
-//        email.addTextChangedListener(loginTextWatcher)
-//        password.addTextChangedListener(loginTextWatcher)
-
-
     }
-
-//    private var loginTextWatcher = object :TextWatcher{
-//        override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
-//
-//        override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-//           val user_email = email.text.toString().trim()
-//           val user_pass = password.text.toString().trim()
-//
-//           btn_signIn.isEnabled = user_email.isNotEmpty() && user_pass.isNotEmpty()
-//        }
-//
-//        override fun afterTextChanged(s: Editable?) {}
-//    }
-
-
 
     override fun onClick(v: View) {
         when(v.id){
