@@ -16,7 +16,7 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
     private var recyclerViewPMIAdapter : RecyclerViewPMIAdapter? = null
     private var pmiList = mutableListOf<PMI>()
     private lateinit var btn_Back5423 : ImageView
-    private lateinit var detail :ImageView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,8 +25,8 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
         btn_Back5423 = findViewById(R.id.btn_Back5423)
         btn_Back5423.setOnClickListener(this)
 
-        detail = findViewById(R.id.rvPMIjabodetabek)
-        detail.setOnClickListener(this)
+
+
 
         pmiList = ArrayList()
 
@@ -70,10 +70,7 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
                 val intent = Intent(this, Home::class.java)
                 startActivity(intent)
             }
-            R.id.rvPMIjabodetabek->{
-                val intent = Intent(this, LokasiPMI::class.java)
-                startActivity(intent)
-            }
+
 
         }
 
