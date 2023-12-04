@@ -15,6 +15,7 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
     private var recyclerView : RecyclerView? = null
     private var recyclerViewPMIAdapter : RecyclerViewPMIAdapter? = null
     private var pmiList = mutableListOf<PMI>()
+
     private lateinit var btn_Back5423 : ImageView
 
 

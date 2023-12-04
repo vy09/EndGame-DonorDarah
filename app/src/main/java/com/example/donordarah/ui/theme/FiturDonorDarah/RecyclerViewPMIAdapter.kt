@@ -1,5 +1,6 @@
 package com.example.donordarah.ui.theme.FiturDonorDarah
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,6 +27,11 @@ class RecyclerViewPMIAdapter constructor(
         holder.ivPmi.setImageResource(pmiList[position].image)
 
         holder.cardView.setOnClickListener {
+            val context = holder.itemView.context
+            val intent= Intent(context,LokasiPMI::class.java).apply {
+                putExtra("ITEM_ID",position)
+            }
+            context.startActivity(intent)
             Toast.makeText(getMenuDonorDarah, pmiList[position].daerah, Toast.LENGTH_LONG).show()
         }
     }

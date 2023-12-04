@@ -9,9 +9,12 @@ import com.example.donordarah.R
 
 class LokasiPMI : AppCompatActivity(), View.OnClickListener {
     private lateinit var btn_cancel : ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lokasi_pmi)
+
+
 
         btn_cancel = findViewById(R.id.btn_cancel)
         btn_cancel.setOnClickListener(this)
