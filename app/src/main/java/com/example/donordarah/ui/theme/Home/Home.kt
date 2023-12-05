@@ -12,7 +12,7 @@ import com.example.donordarah.ui.theme.FiturDonorDarah.MenuDonorDarah
 import com.example.donordarah.ui.theme.Profile.MenuProfile
 
 class Home : AppCompatActivity(), View.OnClickListener {
-    private lateinit var dnr_darah :FrameLayout
+    private lateinit var dnr_darah : FrameLayout
     private lateinit var stok_darah : FrameLayout
     private lateinit var pengaturan : ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
