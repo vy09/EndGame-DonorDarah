@@ -41,17 +41,17 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun preparePMIlistData() {
-        var pmi = PMI ("img_27", R.drawable.img_27)
+        var pmi = PMI ("PMI Kota Depok", R.drawable.img_27)
         pmiList.add(pmi)
-        pmi = PMI ("img_27", R.drawable.img_27)
+        pmi = PMI ("PMI Jakarta Selatan", R.drawable.img_38)
         pmiList.add(pmi)
-        pmi = PMI ("img_27", R.drawable.img_27)
+        pmi = PMI ("PMI Tangerang Selatan", R.drawable.img_40)
         pmiList.add(pmi)
-        pmi = PMI ("img_27", R.drawable.img_27)
+        pmi = PMI ("PMI Kota Bogor", R.drawable.img_41)
         pmiList.add(pmi)
-        pmi = PMI ("img_27", R.drawable.img_27)
+        pmi = PMI ("PMI Jakarta Timur", R.drawable.img_42)
         pmiList.add(pmi)
-        pmi = PMI ("img_27", R.drawable.img_27)
+        pmi = PMI ("PMI DKI Jakarta", R.drawable.img_43)
         pmiList.add(pmi)
         pmi = PMI ("img_27", R.drawable.img_27)
         pmiList.add(pmi)

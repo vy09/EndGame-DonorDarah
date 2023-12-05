@@ -23,38 +23,39 @@ class MenuStokDarah : AppCompatActivity(), View.OnClickListener {
 
         val pmi2List = listOf<PMI2>(
             PMI2(
-                R.drawable.img_16,
+                R.drawable.img_34,
                 "PMI Kota Depok",
                 "Jl. Boulevard Grand Depok City"
             ),
             PMI2(
-                R.drawable.img_16,
+                R.drawable.img_37,
                 "PMI Jakarta Selatan",
+                "Jl. xxxxxxx"
+            ),
+            PMI2(
+                R.drawable.img_39,
+                "PMI Tangerang Selatan",
+                "Jl. xxxxxxx"
+            ),
+            PMI2(
+                R.drawable.img_36,
+                "PMI Kota Bogor",
+                "Jl. xxxxxxx"
+            ),
+            PMI2(
+                R.drawable.img_33,
+                "PMI Jakarta Timur",
+                "Jl. xxxxxxx"
+            ),
+            PMI2(
+                R.drawable.img_35,
+                "PMI DKI Jakarta",
                 "Jl. xxxxxxx"
             ),
             PMI2(
                 R.drawable.img_16,
                 "PMI Kota Bekasi",
                 "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Tangerang Selatan",
-                "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Kota Bogor",
-                "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Jakarta Timur",
-                "Jl. xxxxxxx"
-
             ),
             PMI2(
                 R.drawable.img_16,
@@ -63,32 +64,23 @@ class MenuStokDarah : AppCompatActivity(), View.OnClickListener {
             ),
             PMI2(
                 R.drawable.img_16,
-                "PMI DKI Jakarta",
-                "Jl. xxxxxxx"
-            ),
-            PMI2(
-                R.drawable.img_16,
                 "PMI Jakarta Utara",
                 "Jl. xxxxxxx"
-
             ),
             PMI2(
                 R.drawable.img_16,
                 "PMI Kota Tangerang",
                 "Jl. xxxxxxx"
-
             ),
             PMI2(
                 R.drawable.img_16,
                 "PMI Kabupaten Tangerang",
                 "Jl. xxxxxxx"
-
             ),
             PMI2(
                 R.drawable.img_16,
                 "PMI Kecamatan Kemang",
                 "Jl. xxxxxxx"
-
             )
         )
 
