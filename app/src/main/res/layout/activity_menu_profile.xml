@@ -33,7 +33,7 @@
 
     <FrameLayout
         android:id="@+id/frameLayout2"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
         android:layout_height="623dp"
         android:background="@drawable/new_bg"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +47,7 @@
             android:layout_width="175dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="120dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="70dp"
             android:text="Karina Angel"
             android:textColor="@color/white"
             android:textSize="30sp"
