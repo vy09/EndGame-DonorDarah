@@ -17,8 +17,8 @@
 
         <ImageView
             android:id="@+id/btnDetail"
-            android:layout_width="match_parent"
-            android:layout_height="125dp"
+            android:layout_width="114dp"
+            android:layout_height="122dp"
             android:layout_marginTop="20dp"
             android:scaleType="centerInside"
             android:src="@drawable/img_27" />
