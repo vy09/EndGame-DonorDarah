@@ -35,8 +35,9 @@
         android:id="@+id/frameLayout3"
         android:layout_width="match_parent"
         android:layout_height="750dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="220dp"
         android:background="@drawable/baseline_merah"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 

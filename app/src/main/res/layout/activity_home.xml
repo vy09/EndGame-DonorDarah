@@ -11,9 +11,11 @@
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="329dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="36dp"
         android:background="@drawable/baseline_merah"
         app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
@@ -159,9 +161,9 @@
         android:id="@+id/imageView19"
         android:layout_width="315dp"
         android:layout_height="127dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="292dp"
         android:src="@drawable/img_8"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

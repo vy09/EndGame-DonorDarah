@@ -7,9 +7,7 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import com.example.donordarah.R
-import com.example.donordarah.databinding.ActivityMenuStokDarah2Binding
 import com.example.donordarah.ui.theme.Fitur.MenuStokDarah
-import com.example.donordarah.ui.theme.Fitur.menuStokDarah2
 import com.example.donordarah.ui.theme.FiturDonorDarah.MenuDonorDarah
 import com.example.donordarah.ui.theme.Profile.MenuProfile
 

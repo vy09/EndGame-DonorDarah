@@ -14,4 +14,12 @@
     <color name="basecolor_stok2">#B1181C</color>
     <color name="basecolor_stok3">#AF0C10 </color>
     <color name="edt_text2">#8C8888</color>
+    <color name="goldar_A">#350000</color>
+    <color name="goldar_B">#FFAA00</color>
+    <color name="goldar_O">#13FF03</color>
+    <color name="goldar_AB">#0022FF</color>
+    <color name="goldar_a">#611C1C</color>
+    <color name="goldar_b">#FFCA60</color>
+    <color name="goldar_o">#70FF66</color>
+    <color name="goldar_ab">#5168FF</color>
 </resources>

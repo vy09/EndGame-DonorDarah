@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/vertical_progressbarA">
+        <clip android:clipOrientation="horizontal" android:gravity="bottom">
+        <shape>
+            <corners android:radius="5dp"/>
+            <color
+                android:color="@color/goldar_A"/>
+        </shape>
+        </clip>
+    </item>
+</selector>
