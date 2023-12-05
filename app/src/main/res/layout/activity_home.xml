@@ -9,22 +9,19 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="451dp"
-        android:layout_height="329dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
         android:background="@drawable/baseline_merah"
-        app:layout_constraintBottom_toTopOf="@+id/imageView19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        tools:layout_editor_absoluteY="-3dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="45dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="60dp"
             android:text="Profile"
             android:textColor="@color/white"
             android:textSize="25sp"
@@ -33,15 +30,15 @@
         <ImageView
             android:layout_width="79dp"
             android:layout_height="91dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="175dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="120dp"
             android:src="@drawable/img_9" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="105dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="130dp"
             android:text="Halo Karina"
             android:textColor="@color/white"
             android:textSize="16sp"
@@ -50,8 +47,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="105dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="160dp"
             android:text="(Isi nomor registrasi PMI)"
             android:textColor="@color/white"
             android:textSize="10sp"
@@ -60,8 +57,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="260dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="130dp"
             android:text="Golongan Darah"
             android:textColor="@color/white"
             android:textSize="10sp"
@@ -70,8 +67,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="280dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="150dp"
             android:text="AB+"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -81,8 +78,8 @@
             android:id="@+id/pengaturan"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginStart="320dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="60dp"
             android:src="@drawable/img_22" />
 
 
@@ -92,13 +89,12 @@
         android:id="@+id/stok_darah"
         android:layout_width="119dp"
         android:layout_height="124dp"
+        android:layout_marginTop="96dp"
         android:background="@drawable/img_25"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748">
+        app:layout_constraintTop_toBottomOf="@+id/imageView19">
 
         <ImageView
             android:layout_width="94dp"
@@ -129,15 +125,13 @@
         android:id="@+id/dnr_darah"
         android:layout_width="119dp"
         android:layout_height="124dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/img_25"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748">
+        android:layout_marginTop="96dp"
+        android:background="@drawable/img_25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19">
 
         <ImageView
             android:layout_width="94dp"
@@ -168,12 +162,11 @@
         android:id="@+id/imageView19"
         android:layout_width="315dp"
         android:layout_height="127dp"
+        android:layout_marginTop="96dp"
         android:src="@drawable/img_8"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.465" />
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
