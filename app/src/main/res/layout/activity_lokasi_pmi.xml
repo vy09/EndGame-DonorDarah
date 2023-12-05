@@ -4,96 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/stokdarah"
     tools:context=".ui.theme.FiturDonorDarah.LokasiPMI">
 
-    <RelativeLayout
-        android:layout_width="328dp"
-        android:layout_height="510dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:background="@drawable/popupbg"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443">
+        app:srcCompat="@drawable/baseline_close_24" />
 
-        <TextView
-            android:id="@+id/judul"
-            android:layout_width="233dp"
-            android:layout_height="34dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="52dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginEnd="43dp"
-            android:layout_marginBottom="448dp"
-            android:text="PMI Kota Tangerang"
-            android:textColor="@color/black"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="PMI Kota Tangerang"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
 
-        <ImageView
-            android:id="@+id/gambar"
-            android:layout_width="157dp"
-            android:layout_height="179dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="80dp"
-            android:layout_marginEnd="149dp"
-            android:layout_marginBottom="251dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="414dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/imgv23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
 
-        <ImageView
-            android:layout_width="115dp"
-            android:layout_height="112dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="194dp"
-            android:layout_marginTop="107dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="291dp"
-            android:src="@drawable/img_30" />
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="411dp"
+        android:layout_height="591dp"
+        android:background="@drawable/new_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0">
 
-        <TextView
-            android:layout_width="257dp"
-            android:layout_height="174dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="328dp"
+            android:layout_height="510dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="284dp"
-            android:layout_marginEnd="31dp"
-            android:layout_marginBottom="52dp"
-            android:text="@string/lorem_ipsum"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:layout_marginTop="30dp"
+            android:background="@drawable/popupbg"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/btn_cancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/judul"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="290dp"
-            android:layout_marginBottom="24dp"
-            app:srcCompat="@drawable/baseline_close_24" />
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="157dp"
+                android:layout_height="179dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="149dp"
+                android:layout_marginBottom="251dp" />
 
-    </RelativeLayout>
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="112dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="194dp"
+                android:layout_marginTop="107dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="291dp"
+                android:src="@drawable/img_30" />
+
+            <TextView
+                android:layout_width="257dp"
+                android:layout_height="174dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="284dp"
+                android:layout_marginEnd="31dp"
+                android:layout_marginBottom="52dp"
+                android:text="@string/lorem_ipsum"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
