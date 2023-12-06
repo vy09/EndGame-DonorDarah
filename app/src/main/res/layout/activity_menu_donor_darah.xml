@@ -17,6 +17,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_Back5423" />
 
@@ -30,16 +31,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:layout_constraintVertical_bias="0.117"
         app:queryHint="Search Here ...." />
+
+    <ImageView
+        android:layout_width="427dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/imgv23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <FrameLayout
         android:id="@+id/frameLayout123"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="196dp"
-        android:background="@drawable/baseline_merah"
+        android:layout_width="0dp"
+        android:layout_height="630dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/new_bg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -48,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="30dp"
             tools:listitem="@layout/pmi_jabodetabek_list" />

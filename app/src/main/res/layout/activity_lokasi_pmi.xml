@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".ui.theme.FiturDonorDarah.LokasiPMI">
 
     <ImageView
@@ -28,26 +29,26 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
         android:text="PMI Kota Tangerang"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="414dp"
         android:layout_height="179dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/imgv23"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_cancel" />
+        app:layout_constraintTop_toBottomOf="@+id/judul" />
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -66,7 +67,7 @@
             android:layout_width="328dp"
             android:layout_height="510dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/popupbg"
             android:orientation="vertical">
 
@@ -103,10 +104,10 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="284dp"
-                android:layout_marginEnd="31dp"
-                android:layout_marginBottom="52dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="278dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginBottom="58dp"
                 android:text="@string/lorem_ipsum"
                 android:textAlignment="center"
                 android:textColor="@color/black"
