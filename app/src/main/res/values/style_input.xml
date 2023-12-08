@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+    </style>
+
+    <style name="input.FilledGrey">
+        <item name="boxBackgroundColor">#F5F3F4</item>
+    </style>
+
+<!--    <style name="input.FilledGrey.user">-->
+<!--        <item name="endIconMode">clear_text</item>-->
+<!--    </style>-->
+</resources>
