@@ -100,7 +100,7 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/textView43"
+                android:id="@+id/jadwal"
                 android:layout_width="124dp"
                 android:layout_height="20dp"
                 android:layout_alignTop="@+id/gambar"
@@ -118,7 +118,7 @@
                 android:layout_width="129dp"
                 android:layout_height="16dp"
                 android:layout_above="@+id/textView45"
-                android:layout_below="@+id/textView43"
+                android:layout_below="@+id/jadwal"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="9dp"
