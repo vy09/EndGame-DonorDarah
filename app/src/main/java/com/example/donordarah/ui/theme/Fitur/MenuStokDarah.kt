@@ -19,7 +19,7 @@ class MenuStokDarah : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_stok_darah)
 
-        btn_Back5424 = findViewById(R.id.btnback5)
+        btn_Back5424 = findViewById(R.id.btn_Back5424)
         btn_Back5424.setOnClickListener(this)
 
         val pmi2List = listOf<PMI2>(
@@ -104,7 +104,7 @@ class MenuStokDarah : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.btnback5 ->{
+            R.id.btn_Back5424 ->{
                 val intent = Intent(this, Home::class.java)
                 startActivity(intent)
             }

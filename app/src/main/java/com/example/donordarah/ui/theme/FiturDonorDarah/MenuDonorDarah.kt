@@ -51,6 +51,8 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
         pmiList.add(pmi)
         pmi = PMI ("PMI Jakarta Timur", R.drawable.img_27)
         pmiList.add(pmi)
+        pmi = PMI ("PMI Jakarta Selatan", R.drawable.img_27)
+        pmiList.add(pmi)
         pmi = PMI ("PMI Tangerang Selatan", R.drawable.img_27)
         pmiList.add(pmi)
         pmi = PMI ("PMI Kota Bogor", R.drawable.img_27)

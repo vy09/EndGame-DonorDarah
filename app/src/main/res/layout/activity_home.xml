@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="45dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:text="Profile"
             android:textColor="@color/white"
             android:textSize="25sp"
@@ -31,14 +31,14 @@
             android:layout_width="79dp"
             android:layout_height="91dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="80dp"
             android:src="@drawable/img_9" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="140dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="90dp"
             android:text="Halo Karina"
             android:textColor="@color/white"
             android:textSize="16sp"
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="140dp"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="120dp"
             android:text="(Isi nomor registrasi PMI)"
             android:textColor="@color/white"
             android:textSize="10sp"
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="300dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="90dp"
             android:text="Golongan Darah"
             android:textColor="@color/white"
             android:textSize="10sp"
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="315dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="120dp"
             android:text="AB+"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -79,7 +79,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_marginStart="350dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="35dp"
             android:src="@drawable/img_22" />
 
 
