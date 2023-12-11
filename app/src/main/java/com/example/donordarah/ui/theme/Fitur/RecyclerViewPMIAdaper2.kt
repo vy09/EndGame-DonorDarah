@@ -41,7 +41,8 @@ class RecyclerViewPMIAdaper2(private val context: Context, private val pmi2: Lis
         holder.cardView.setOnClickListener{
             val context1 = holder.itemView.context
             val intent= Intent(context1,StokDarahPMI::class.java).apply {
-                putExtra("ITEM_ID",position)
+                putExtra("nama",pmi2[position].namePmi)
+                putExtra("alamat",pmi2[position].almtPmi)
             }
             context1.startActivity(intent)
             }

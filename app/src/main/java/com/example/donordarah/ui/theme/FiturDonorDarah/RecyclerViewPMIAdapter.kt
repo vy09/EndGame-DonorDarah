@@ -29,7 +29,9 @@ class RecyclerViewPMIAdapter constructor(
         holder.cardView.setOnClickListener {
             val context = holder.itemView.context
             val intent= Intent(context,LokasiPMI::class.java).apply {
-                putExtra("ITEM_ID",position)
+                putExtra("Image",pmiList[position].image)
+                putExtra("daerah",pmiList[position].daerah)
+
             }
             context.startActivity(intent)
             Toast.makeText(getMenuDonorDarah, pmiList[position].daerah, Toast.LENGTH_LONG).show()
