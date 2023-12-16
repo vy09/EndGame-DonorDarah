@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504206005880",
+    "project_id": "donordarah-bc812",
+    "storage_bucket": "donordarah-bc812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504206005880:android:7d074d77a68b65c7f4ff8d",
+        "android_client_info": {
+          "package_name": "com.example.donordarah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504206005880-vf8o8qofbpe848vfvji0qi2vros529a9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6yYRV_ueGb44Bw2aZnQUuS-PWLWy2B84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504206005880-vf8o8qofbpe848vfvji0qi2vros529a9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

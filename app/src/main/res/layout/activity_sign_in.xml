@@ -8,136 +8,200 @@
     tools:context=".ui.theme.Login.SignIn">
 
     <TextView
+        android:id="@+id/textView48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="Masuk"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="301dp"
         android:layout_height="36dp"
-        android:layout_marginBottom="20dp"
         android:text=" Hi Selamat datang kembali ke akun anda!"
         android:textColor="@color/white"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
 
     <FrameLayout
         android:id="@+id/frameLayout2"
         android:layout_width="408dp"
         android:layout_height="829dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/layout_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
-        <TextView
-            android:id="@+id/name_email"
-            android:layout_width="122dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="50dp"
-            android:text="Email"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edit_email"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="80dp"
-            android:layout_marginEnd="20dp"
-            android:autofillHints="@string/prompt_email"
-            android:hint="@string/prompt_email"
-            android:paddingLeft="10dp"
-            android:inputType="textEmailAddress"
-            android:selectAllOnFocus="true"
-            android:textColorHint="@color/edt_text2" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/password"
-            android:layout_width="142dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="145dp"
-            android:text="Kata Sandi"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="20dp"
+                android:autofillHints="@string/prompt_email"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@color/edt_text2"
+                app:layout_constraintBottom_toTopOf="@+id/password"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
 
-        <EditText
-            android:id="@+id/psswd"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="170dp"
-            android:layout_marginEnd="20dp"
-            android:autofillHints="@string/prompt_password"
-            android:hint="@string/prompt_password"
-            android:imeActionLabel="@string/action_sign_in_short"
-            android:imeOptions="actionDone"
-            android:inputType="textPassword"
-            android:selectAllOnFocus="true"
-            android:textColorHint="@color/edt_text2"/>
+            <TextView
+                android:id="@+id/name_email"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="4dp"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/edit_email"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.069"
+                app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/lupaPW"
-            android:layout_width="142dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="230dp"
-            android:layout_marginTop="220dp"
-            android:text="Lupa Kata Sandi?"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Kata Sandi"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/psswd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.075"
+                app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/btn_signIn"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="310dp"
-            android:layout_marginEnd="100dp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/maincolor"
-            android:text="Masuk"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            <EditText
+                android:id="@+id/psswd"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:autofillHints="@string/prompt_password"
+                android:hint="@string/prompt_password"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:selectAllOnFocus="true"
+                android:textColorHint="@color/edt_text2"
+                app:layout_constraintBottom_toTopOf="@+id/lupaPW"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:layout_width="142dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="360dp"
-            android:text="Belum punya akun?"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+            <TextView
+                android:id="@+id/lupaPW"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="Lupa Kata Sandi?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/btn_signIn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.934"
+                app:layout_constraintStart_toStartOf="@+id/psswd" />
 
-        <TextView
-            android:id="@+id/btn_daftar"
-            android:layout_width="95dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="240dp"
-            android:layout_marginTop="360dp"
-            android:text="Daftar"
-            android:textColor="@color/daftar_login"
-            android:textSize="15sp"
-            android:textStyle="bold" />
+            <Button
+                android:id="@+id/btn_signIn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/maincolor"
+                android:text="Masuk"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView50"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.475"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="Belum punya akun?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/LoginGoogle"
+                app:layout_constraintEnd_toStartOf="@+id/btn_daftar"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/btn_daftar"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="108dp"
+                android:text="Daftar"
+                android:textColor="@color/daftar_login"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/facebook"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView50" />
+
+            <Button
+                android:id="@+id/LoginGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="391dp"
+                style="@style/btn.White.Google"
+                android:text="Google"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/facebook"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="391dp"
+                style="@style/btn.White.Facebook"
+                android:text="Facebook"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ProgressBar
+                android:id="@+id/pb_signin_google"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.577" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </FrameLayout>

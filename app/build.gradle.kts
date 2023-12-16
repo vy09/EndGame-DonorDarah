@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
 
     id ("kotlin-parcelize")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -71,8 +72,16 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
 
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-auth:22.3.0")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+
     implementation ("androidx.recyclerview:recyclerview:1.1.0")
     implementation ("androidx.cardview:cardview:1.0.0")
+    implementation("com.google.firebase:firebase-auth:22.3.0")
+
+
 
 
     testImplementation("junit:junit:4.13.2")
@@ -82,4 +91,5 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
 }
