@@ -18,10 +18,10 @@ class StokDarahPMI : AppCompatActivity(), View.OnClickListener {
         btnback236 = findViewById(R.id.btnback236)
         btnback236.setOnClickListener(this)
 
-        val daerah : TextView = findViewById(R.id.judul)
+        val nama : TextView = findViewById(R.id.judul)
         val bundle : Bundle? = intent.extras
-        val daerahid = bundle?.getString("daerah")
-        daerah.text = daerahid
+        val namaid = bundle?.getString("nama")
+        nama.text = namaid
     }
 
     override fun onClick(v: View) {
