@@ -31,7 +31,7 @@
         android:gravity="center"
         android:text="PMI Kota Depok"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,21 +55,7 @@
             android:layout_margin="12dp">
 
             <!-- Title row -->
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center">
 
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="23 November 2023"
-                    android:textSize="19sp"
-                    android:textStyle="bold" />
-            </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
@@ -80,21 +66,25 @@
                     android:layout_width="5dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="No" />
+                    android:gravity="center"
+                    android:text="No"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:text="Resus Darah "
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:text="Jumlah"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -102,7 +92,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="4dp"
-                android:background="#000000" />
+                android:background="#000000"
+                />
 
             <TableRow
                 android:layout_width="match_parent"
@@ -113,21 +104,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="1" />
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="A+" />
+                    android:text="A+"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="30" />
+                    android:text="30"
+                    android:textColor="@color/black"/>
             </TableRow>
 
             <TableRow
@@ -139,48 +134,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="2" />
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="B+" />
+                    android:text="B+"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="35" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="4dp">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:text="3" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:gravity="center"
-                    android:text="O+" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:gravity="center"
-                    android:text="40" />
+                    android:text="35"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -193,21 +165,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="4" />
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="AB+" />
+                    android:text="O+"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="25" />
+                    android:text="40"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -220,21 +196,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="5" />
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="A-" />
+                    android:text="AB+"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="18" />
+                    android:text="25"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -247,21 +227,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="6" />
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="B-" />
+                    android:text="A-"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="28" />
+                    android:text="18"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -274,21 +258,25 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="7" />
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="0-" />
+                    android:text="B-"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="35" />
+                    android:text="28"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -301,21 +289,56 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="8" />
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:gravity="center"
-                    android:text="AB-" />
+                    android:text="0-"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="15" />
+                    android:text="35"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:text="AB-"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="15"
+                    android:textColor="@color/black"/>
 
             </TableRow>
 
@@ -333,50 +356,390 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:elevation="2dp"
+                android:gravity="center"
+                android:text="Jenis Golongan Darah "
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintCircleRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.541"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-                <TextView
-                    android:id="@+id/textView43"
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center|center_horizontal|center_vertical|fill_vertical"
-                    android:layout_marginTop="10dp"
-                    android:text="Jenis Golongan Darah "
-                    android:textColor="@color/white"
-                    android:textSize="19sp"
-                    android:textStyle="bold"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:layout_marginTop="52dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView51"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="20dp"
-                    android:text="TextView"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView43" />
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:gravity="center">
 
-                <TextView
-                    android:id="@+id/textView52"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:text="TextView"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView43" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
+                        <!-- Title row -->
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="#000000" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="17dp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Resus Darah A+"
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="#000000" />
+
+                        <!-- Row 1 -->
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp">
+
+                            <TextView
+                                android:layout_width="131dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="Keterangan"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="Jumlah"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="253dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Anti Hemophilc Factor (AHF)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="20"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="233dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Fresh Frozen Plasma (FFP)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="255dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Packed Red Cell Leuko Reduce (PCLR)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="213dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Packed Red Cell (PC)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="15"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="215dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Thrombocyte Concentrate (TC)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/white" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:gravity="center">
+
+                        <!-- Title row -->
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="#000000" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Resus Darah A+"
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="#000000" />
+
+                        <!-- Row 1 -->
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="4dp">
+
+                            <TextView
+                                android:layout_width="131dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center"
+                                android:text="Keterangan"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="Jumlah"
+                                android:textAlignment="center"
+                                android:textColor="@color/white" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="253dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Anti Hemophilc Factor (AHF)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="20"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="233dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Fresh Frozen Plasma (FFP)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="5"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="255dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Packed Red Cell Leuko Reduce (PCLR)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="213dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Packed Red Cell (PC)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="15"
+                                android:textColor="@color/white" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp">
+
+                            <TextView
+                                android:layout_width="215dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:gravity="start"
+                                android:text="Thrombocyte Concentrate (TC)"
+                                android:textColor="@color/white" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="0"
+                                android:textColor="@color/white" />
+                        </TableRow>
+                    </TableLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
 
