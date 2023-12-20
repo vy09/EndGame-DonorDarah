@@ -23,71 +23,64 @@ class MenuStokDarah : AppCompatActivity(), View.OnClickListener {
 
         val pmi2List = listOf<PMI2>(
             PMI2(
-                R.drawable.img_16,
-                "PMI Kota Tangerang",
+                R.drawable.img_34,
+                "PMI Kota Depok",
                 "Jl. Boulevard Grand Depok City"
             ),
             PMI2(
-                R.drawable.img_16,
-                "PMI Jakarta Selatan",
-                "Jl. xxxxxxx"
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Kota Bekasi",
-                "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
+                R.drawable.img_39,
                 "PMI Tangerang Selatan",
-                "Jl. xxxxxxx"
-
+                "Jl. Cendekia Sektor 11, Ciater"
             ),
             PMI2(
-                R.drawable.img_16,
-                "PMI Kota Bogor",
-                "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Jakarta Timur",
-                "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Jakarta Barat",
-                "Jl. xxxxxxx"
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI DKI Jakarta",
-                "Jl. xxxxxxx"
-            ),
-            PMI2(
-                R.drawable.img_16,
-                "PMI Jakarta Utara",
-                "Jl. xxxxxxx"
-
-            ),
-            PMI2(
-                R.drawable.img_16,
+                R.drawable.img_42,
                 "PMI Kota Tangerang",
-                "Jl. xxxxxxx"
+                "Jl. Mayjen Sutoyo No.15"
 
             ),
             PMI2(
-                R.drawable.img_16,
-                "PMI Kabupaten Tangerang",
-                "Jl. xxxxxxx"
+                R.drawable.img_40,
+                "PMI Jakarta Utara",
+                "Jl. Plumpang Semper No.54, RT.1/RW.4"
 
             ),
             PMI2(
-                R.drawable.img_16,
-                "PMI Kecamatan Kemang",
-                "Jl. xxxxxxx"
+                R.drawable.img_36,
+                "PMI Kota Bogor",
+                "Jl. Kresna Raya No.43a, Bantarjati"
+
+            ),
+            PMI2(
+                R.drawable.img_33,
+                "PMI Jakarta Timur",
+                "Jl. I Gusti Ngurah Rai No.77,"
+            ),
+            PMI2(
+                R.drawable.img_41,
+                "PMI Jakarta Barat",
+                "Jl. Perdana No.12, RT.1/RW.1, Wijaya Kusuma"
+            ),
+            PMI2(
+                R.drawable.img_35,
+                "PMI Jakarta Pusat",
+                "Jl. Pecenongan No.82, RT.2/RW.4"
+            ),
+            PMI2(
+                R.drawable.img_37,
+                "PMI Jakarta Selatan",
+                "Jl. Condet Pejaten No.9A 1, RT.1/RW.7"
+
+            ),
+            PMI2(
+                R.drawable.img_38,
+                "PMI Kota Bekasi",
+                "Jl. Pramuka No.1, RT.006/RW.006, Marga Jaya"
+
+            ),
+            PMI2(
+                R.drawable.img_35,
+                "PMI Bogor",
+                "Jl. Pramuka No.1, RT.006/RW.006, Marga Jaya"
 
             )
         )
