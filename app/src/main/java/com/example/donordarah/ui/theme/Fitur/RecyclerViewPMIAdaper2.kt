@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.donordarah.R
 import kotlin.coroutines.coroutineContext
 
-class RecyclerViewPMIAdaper2(private val context: Context, private val pmi2: List<PMI2>, val listener: (PMI2) -> Unit)
+class RecyclerViewPMIAdaper2(
+    private val context: Context, private val pmi2: List<PMI2>, val listener: (PMI2) -> Unit)
     : RecyclerView.Adapter<RecyclerViewPMIAdaper2.PMI2ViewHolder>(){
     class PMI2ViewHolder(view: View): RecyclerView.ViewHolder(view) {
-
         val imgPmi = view.findViewById<ImageView>(R.id.img_item_photo)
         val namePmi = view.findViewById<TextView>(R.id.tv_item_name)
         val almtPmi = view.findViewById<TextView>(R.id.tv_item_description)

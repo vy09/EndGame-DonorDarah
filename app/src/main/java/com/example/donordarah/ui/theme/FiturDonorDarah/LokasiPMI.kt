@@ -19,9 +19,6 @@ class LokasiPMI : AppCompatActivity(), View.OnClickListener {
     private val latitudeOne = ""
     private val longitudeOne = ""
 
-    private val latitudeTwo = ""
-    private val longitudeTwo = ""
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

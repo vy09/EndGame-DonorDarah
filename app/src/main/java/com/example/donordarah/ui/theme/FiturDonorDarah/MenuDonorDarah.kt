@@ -27,8 +27,6 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
         btn_Back5423.setOnClickListener(this)
 
 
-
-
         pmiList = ArrayList()
 
         recyclerView = findViewById<View>(R.id.rvPMIjabodetabek) as RecyclerView
@@ -41,29 +39,30 @@ class MenuDonorDarah : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun preparePMIlistData() {
-        var pmi = PMI ("PMI Kota Tangerang", R.drawable.img_27)
+        var pmi = PMI ("PMI Kota Tangerang", R.drawable.img_42)
         pmiList.add(pmi)
-        pmi = PMI ("PMI Kota Depok", R.drawable.img_27)
+        pmi = PMI ("PMI Tangerang Selatan", R.drawable.img_39)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Kota Depok", R.drawable.img_34)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Jakarta Utara", R.drawable.img_40)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Jakarta Barat", R.drawable.img_41)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Jakarta Timur", R.drawable.img_33)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Jakarta Selatan", R.drawable.img_37)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Jakarta Pusat", R.drawable.img_35)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Kota Bogor", R.drawable.img_36)
+        pmiList.add(pmi)
+        pmi = PMI ("PMI Kota Bekasi", R.drawable.img_38)
         pmiList.add(pmi)
         pmi = PMI ("PMI Jakarta Utara", R.drawable.img_27)
         pmiList.add(pmi)
-        pmi = PMI ("PMI Jakarta Barat", R.drawable.img_27)
-        pmiList.add(pmi)
-        pmi = PMI ("PMI Jakarta Timur", R.drawable.img_27)
-        pmiList.add(pmi)
-        pmi = PMI ("PMI Jakarta Selatan", R.drawable.img_27)
-        pmiList.add(pmi)
-        pmi = PMI ("PMI Tangerang Selatan", R.drawable.img_27)
-        pmiList.add(pmi)
-        pmi = PMI ("PMI Kota Bogor", R.drawable.img_27)
-        pmiList.add(pmi)
-        pmi = PMI ("PMI Kota Bekasi", R.drawable.img_27)
-        pmiList.add(pmi)
-        pmi = PMI ("PMI Kota Bogor", R.drawable.img_27)
-        pmiList.add(pmi)
         pmi = PMI ("PMI Jakarta Utara", R.drawable.img_27)
         pmiList.add(pmi)
-
         recyclerViewPMIAdapter!!.notifyDataSetChanged()
     }
 
